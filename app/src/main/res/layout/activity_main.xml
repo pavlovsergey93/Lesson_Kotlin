@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_1"
+        style="@style/text_view"
+        tools:text="Hello World!" />
+
+    <Button
+        android:id="@+id/button_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_8"
+        android:text="@string/info_test" />
+
+    <TextView
+        android:id="@+id/text_view_2"
+        style="@style/text_view"
+        android:layout_marginTop="@dimen/margin_top"
+        tools:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btn_coty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_8"
+        android:gravity="center"
+        android:text="@string/btn_copy" />
+
+    <TextView
+        android:id="@+id/text_view_3"
+        style="@style/text_view"
+        tools:text="Hello World!" />
+
+
+</LinearLayout>

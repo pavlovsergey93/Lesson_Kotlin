@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WhatToSee</string>
+    <string name="info_test">Информация</string>
+    <string name="btn_copy">Копировать объект</string>
+</resources>
