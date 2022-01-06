@@ -2,7 +2,7 @@ package com.gmail.pavlovsv93.whattosee.domain
 
 class MovieRepository() : RepositoryInterface {
 
-    private val moviesList: MutableList<Movie> = TODO()
+    private val moviesList: MutableList<Movie> = arrayListOf()
 
     override fun addNewMovie(id: Int, name: String, tell: String) {
         val movie = Movie(id = id, nameMovie = name, brieflyTell = tell)
